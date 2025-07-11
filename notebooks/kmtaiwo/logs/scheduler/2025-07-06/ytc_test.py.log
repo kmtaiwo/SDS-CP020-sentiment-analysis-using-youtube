@@ -1,0 +1,77 @@
+[2025-07-06T23:39:18.687+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:39:18.689+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:39:18.695+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:39:18.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:39:18.820+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:39:19.108+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:39:19.107+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:39:19.138+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:39:19.137+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:39:19.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.497 seconds
+[2025-07-06T23:39:49.644+0000] {processor.py:186} INFO - Started process (PID=155) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:39:49.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:39:49.649+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:39:49.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:39:49.756+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:39:49.779+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:39:49.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:39:49.795+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:39:49.794+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:39:49.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.180 seconds
+[2025-07-06T23:40:20.743+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:40:20.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:40:20.748+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:40:20.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:40:20.844+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:40:20.869+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:40:20.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:40:20.886+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:40:20.885+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:40:20.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.175 seconds
+[2025-07-06T23:40:51.063+0000] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:40:51.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:40:51.067+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:40:51.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:40:51.140+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:40:51.163+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:40:51.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:40:51.178+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:40:51.178+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:40:51.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.144 seconds
+[2025-07-06T23:41:21.508+0000] {processor.py:186} INFO - Started process (PID=357) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:41:21.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:41:21.513+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:41:21.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:41:21.602+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:41:21.633+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:41:21.633+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:41:21.654+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:41:21.653+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:41:21.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.182 seconds
+[2025-07-06T23:41:51.743+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:41:51.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:41:51.747+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:41:51.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:41:51.824+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:41:51.846+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:41:51.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:41:51.863+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:41:51.863+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:41:51.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.159 seconds
+[2025-07-06T23:42:22.626+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:42:22.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:42:22.631+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:42:22.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:42:22.723+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:42:22.754+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:42:22.754+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:42:22.775+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:42:22.775+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:42:22.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.181 seconds
+[2025-07-06T23:42:53.133+0000] {processor.py:186} INFO - Started process (PID=555) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:42:53.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:42:53.139+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:42:53.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:42:53.227+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:42:53.249+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:42:53.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:42:53.265+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:42:53.264+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:42:53.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.163 seconds
+[2025-07-06T23:43:23.511+0000] {processor.py:186} INFO - Started process (PID=621) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:43:23.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:43:23.516+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:43:23.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:43:23.608+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:43:23.631+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:43:23.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:43:23.649+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:43:23.649+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:43:23.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.176 seconds
+[2025-07-06T23:43:54.340+0000] {processor.py:186} INFO - Started process (PID=687) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:43:54.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:43:54.356+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:43:54.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:43:54.548+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:43:54.571+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:43:54.570+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:43:54.587+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:43:54.587+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:43:54.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.305 seconds
+[2025-07-06T23:44:24.975+0000] {processor.py:186} INFO - Started process (PID=753) to work on /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:44:24.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ytc_test.py for tasks to queue
+[2025-07-06T23:44:24.981+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:44:24.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:44:25.094+0000] {processor.py:925} INFO - DAG(s) 'yt_comments_etl_test' retrieved from /opt/airflow/dags/ytc_test.py
+[2025-07-06T23:44:25.127+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:44:25.126+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T23:44:25.152+0000] {logging_mixin.py:190} INFO - [2025-07-06T23:44:25.152+0000] {dag.py:4180} INFO - Setting next_dagrun for yt_comments_etl_test to None, run_after=None
+[2025-07-06T23:44:25.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ytc_test.py took 0.217 seconds

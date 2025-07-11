@@ -1,0 +1,44 @@
+[2025-07-01T15:58:11.186+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-01T15:58:11.207+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_comments_etl_pipeline.load_youtube_data manual__2025-07-01T15:58:00.973962+00:00 [queued]>
+[2025-07-01T15:58:11.217+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_comments_etl_pipeline.load_youtube_data manual__2025-07-01T15:58:00.973962+00:00 [queued]>
+[2025-07-01T15:58:11.218+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-07-01T15:58:11.236+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): load_youtube_data> on 2025-07-01 15:58:00.973962+00:00
+[2025-07-01T15:58:11.244+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=105) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-01T15:58:11.247+0000] {standard_task_runner.py:72} INFO - Started process 107 to run task
+[2025-07-01T15:58:11.248+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'youtube_comments_etl_pipeline', 'load_youtube_data', 'manual__2025-07-01T15:58:00.973962+00:00', '--job-id', '1135', '--raw', '--subdir', 'DAGS_FOLDER/yt_comments_dag.py', '--cfg-path', '/tmp/tmp9vukx7vm']
+[2025-07-01T15:58:11.253+0000] {standard_task_runner.py:105} INFO - Job 1135: Subtask load_youtube_data
+[2025-07-01T15:58:11.333+0000] {task_command.py:467} INFO - Running <TaskInstance: youtube_comments_etl_pipeline.load_youtube_data manual__2025-07-01T15:58:00.973962+00:00 [running]> on host 9a2b24292e0d
+[2025-07-01T15:58:11.979+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='youtube_comments_etl_pipeline' AIRFLOW_CTX_TASK_ID='load_youtube_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-01T15:58:00.973962+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-01T15:58:00.973962+00:00'
+[2025-07-01T15:58:11.980+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-07-01T15:58:11.981+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-07-01T15:58:11.981+0000] {logging_mixin.py:190} INFO - Current task name:load_youtube_data state:running start_date:2025-07-01 15:58:11.208224+00:00
+[2025-07-01T15:58:11.982+0000] {logging_mixin.py:190} INFO - Dag name:youtube_comments_etl_pipeline and current dag run status:running
+[2025-07-01T15:58:11.982+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-01T15:58:12.099+0000] {warnings.py:112} WARNING - /opt/***/dags/yt_comments_dag.py:216: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  comments_data = pd.read_sql_query("SELECT * FROM Comments", conn)
+
+[2025-07-01T15:58:12.107+0000] {warnings.py:112} WARNING - /opt/***/dags/yt_comments_dag.py:217: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  metadata_data = pd.read_sql_query("SELECT * FROM VideoMetadata", conn)
+
+[2025-07-01T15:58:12.115+0000] {python.py:240} INFO - Done. Returned value was: {'comments':                  author  ...                                               text
+0         @SoleilMagica  ...  People complain hollywood doesnt make anything...
+1        @ClubFreeze501  ...                                              Nice 
+2  @kurtcobainpizza5606  ...                              Fatigue Prime edition
+3  @furtherdefinitions1  ...              Im looking forward to not seeing this
+4          @theonedarac  ...                                         Nice movie
+
+[5 rows x 5 columns], 'metadata':       video_id                                 title  ... view_count like_count
+0  mhQcpvKHis4  G20 - Official Trailer | Prime Video  ...    7378319      18307
+
+[1 rows x 7 columns]}
+[2025-07-01T15:58:12.230+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-01T15:58:12.231+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=youtube_comments_etl_pipeline, task_id=load_youtube_data, run_id=manual__2025-07-01T15:58:00.973962+00:00, execution_date=20250701T155800, start_date=20250701T155811, end_date=20250701T155812
+[2025-07-01T15:58:12.250+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-07-01T15:58:12.251+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-07-01T15:58:12.252+0000] {logging_mixin.py:190} INFO - Dag name:youtube_comments_etl_pipeline queued_at:2025-07-01 15:58:01.124321+00:00
+[2025-07-01T15:58:12.252+0000] {logging_mixin.py:190} INFO - Task hostname:9a2b24292e0d operator:_PythonDecoratedOperator
+[2025-07-01T15:58:12.308+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-01T15:58:12.329+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-01T15:58:12.332+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
